@@ -130,6 +130,15 @@
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-shuqi-body3.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.png, tag=书旗小说获取时长body, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-shuqi-body3.txt, tag=书旗小说获取时长body, update-interval=86400, opt-parser=false, enabled=false",
+        },
+
+
+
+        {
+            "config": "7 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/HTT.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/HTT.png, tag=惠头条, enabled=false",
+        }, {
+            "config": "*/2 0-16 * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/HTTcookie.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/HTT.png, tag=惠头条获取cookie, enabled=false",
+            "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/HTTcookie.txt, tag=惠头条获取cookie, update-interval=86400, opt-parser=false, enabled=false",
         }
     ],
 }
