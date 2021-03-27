@@ -1,56 +1,89 @@
-## 3.食用方法：
-1.到[重写]-[引用],启动HttCookie,获取四个cookie信息
+//2020.12.05 移除报错模块 时段奖励、视频签到奖励，阅读时长奖励请自行点击领取
 
-【签到cookie】
-进入任务页面，或者签到一次
-
-【阅读cookie】
-进入app-头条页面，阅读一篇文章获取金币奖励
-
-【视频cookie】
-进入视频页面，看一篇视频到获取金币奖励
-
-【小视频cookie】
-视频页面点到小视频，看一篇小视频到获取金币奖励
-
-2.手动执行一次定时脚本-”惠头条”,打开app看金币是否获取正常
-
-3.其他收益请手动点击，避免黑号已经删除模块，之后有时间在测试//2020.12.05 移除报错模块 时段奖励、视频签到奖励，阅读时长奖励请自行点击领取
 //
+
+
 const Notice=1;//设置运行多少次才通知。
 const log=1;//设置0关闭日志,1开启日志
+
+
+
 //====================================
+
 const $iosrule = iosrule();//声明必须
 const httid="A";
 const huitoutiao="惠头条";
+
+
 //++++++++++++++++++++++++++++++++-
+
 const htt_videoname="htt_videoname"+httid;
 const htt_video=$iosrule.read(htt_videoname);
+
 const htt_dongfangname="htt_dongfangname"+httid;
 const htt_dongfang=$iosrule.read(htt_dongfangname);
 const htt_smvideoname="htt_smvideoname"+httid;
 const htt_smvideo=$iosrule.read(htt_smvideoname);
+
+
 const htt_signurlckname="htt_signurlckname"+httid;
 const htt_signurlck=$iosrule.read(htt_signurlckname);
+
+
 const htt_signbdname="htt_signbdname"+httid;
 const htt_signbd=$iosrule.read(htt_signbdname)
 ;
+
+
+
 var htt_num=0;var htt_result="";
+
 //++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
 //++++++++++++++++++++++++++++++++
 
 //3.需要执行的函数都写这里
 function main()
 {
+
+
 htt_main();
+
+
+
 }
+
 function htt_main()
 {
+
+
 htt_coinall();
+
+
 }
+
+
+
 main()
+
+
 //++++++++++++++++++++++++++++++++++++
 //4.基础模板
+
+
+
+
 //目前每日阅读奖励 请求body失效
 /*
 function htt_taskread5()
@@ -93,6 +126,8 @@ else   if(obj.statusCode==-50)
 {result2="[重复签到]";
 htt_signday(result2);}})
     $iosrule.post(llUrl2, function(error, response, data){})}
+
+
 */
 
 //目前时段签到失效
@@ -137,6 +172,9 @@ result2=res+"  ✍🏻️[签到天数]"+obj.day;
    })
  }
 */
+
+
+
 function htt_read_dongfang()
   {
    var result1="【阅读奖励】";var result2="";
@@ -161,6 +199,10 @@ else
    htt_msg(result1+"\n"+result2+"\n");}
    })
  }
+
+
+
+
 function htt_read_video()
   {
    var result1="【看视频奖励】";var result2="";
@@ -191,10 +233,13 @@ htt_msg(result1+"\n"+result2+"\n");
 
    })
  }
+
+
 function htt_read_smvideo()
   {
    var result1="【看小视频奖励】";var result2="";
 var tt=huitoutiao;
+
 
     const llUrl1 = {url:"https://api.cashtoutiao.com/frontend/read/sych/duration?"+htt_signurlck,headers:{"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"},body:htt_find(htt_smvideo),timeout:60};
 
@@ -220,6 +265,12 @@ htt_msg(result1+"\n"+result2+"\n");
 
    })
  }
+
+
+
+
+
+
 function htt_readtotal()
   {
    var result1="【收益统计】";var result2="";
@@ -240,6 +291,10 @@ var tt=huitoutiao;
    htt_msg(result1+"\n"+result2+"\n");
 ;}})
 }
+
+
+
+
 function htt_msg(r)
 {var tt=huitoutiao;
   htt_num++;htt_result+=r;
@@ -258,6 +313,16 @@ $iosrule.write("iosrule"+loon,"iosrule")
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
 function htt_coinall()
 
  {
@@ -286,6 +351,9 @@ setTimeout(function(){
 
 }
 
+
+
+
 function htt_find(bd) {
 if(JSON.parse(bd).hasOwnProperty("token"))
   {bd=JSON.parse(bd);delete bd["token"];bd=JSON.stringify(bd);
@@ -293,6 +361,11 @@ return bd;}
 else
 return bd;
 }
+
+
+
+
+
 function
 formatSeconds(value) {
     let result = parseInt(value)
@@ -306,6 +379,12 @@ formatSeconds(value) {
     res += `${s}秒`;
     return res;
   }
+
+
+
+
+
+
 function papa(x,y,z){
 
  $iosrule.notify(x,y,z);}
