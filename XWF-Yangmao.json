@@ -96,7 +96,7 @@
         {
             "config": "9 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/yuedongzu.js, img-url=https://qxzy.top/rules/QuantumultX/img/yuedongzu.png, tag=悦动族, enabled=true",
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-yuedongzu-header.txt, img-url= https://qxzy.top/rules/QuantumultX/img/yuedongzu.png, tag=悦动族获取header, enabled=true",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-yuedongzu-header.txt, img-url=https://qxzy.top/rules/QuantumultX/img/yuedongzu.png, tag=悦动族获取header, enabled=true",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-yuedongzu-header.txt, tag=悦动族获取header, update-interval=86400, opt-parser=false, enabled=false",
         },
         
