@@ -106,7 +106,7 @@
         {
             "config": "11 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/qmyd.js, img-url=https://qxzy.top/rules/QuantumultX/img/qmyd.png, tag=全民悦动, enabled=false",
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-qmyd-header.txt, img-url=https://qxzy.top/rules/QuantumultX/img/qmyd.png, tag=全民悦动获取header, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-qmyd-header.txt, img-url= https://qxzy.top/rules/QuantumultX/img/qmyd.png, tag=全民悦动获取header, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-qmyd-header.txt, tag=全民悦动获取header, update-interval=86400, opt-parser=false, enabled=false",
         },
         
