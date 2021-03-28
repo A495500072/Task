@@ -84,9 +84,9 @@
 
 
         {
-            "config": "7 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/bububao.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/bububao.png, tag=步步宝, enabled=false",
+            "config": "7 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/bububao.js, img-url=https://qxzy.top/rules/QuantumultX/img/bbb.png, tag=步步宝, enabled=false",
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-bububao-header.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/bububao.png, tag=步步宝获取header, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-bububao-header.txt, img-url= https://qxzy.top/rules/QuantumultX/img/bbb.png, tag=步步宝获取header, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-bububao-header.txt, tag=步步宝获取header, update-interval=86400, opt-parser=false, enabled=false",
         },
         
