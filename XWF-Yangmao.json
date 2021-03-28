@@ -64,9 +64,9 @@
 
 
         {
-            "config": "1 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.png, tag=芝嫲, enabled=false",
+            "config": "1 */30 * * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.PNG, tag=芝嫲, enabled=false",
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-zhima-body.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.png, tag=芝嫲获取body, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-zhima-body.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/zhima.PNG, tag=芝嫲获取body, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-zhima-body.txt, tag=芝嫲获取body, update-interval=86400, opt-parser=false, enabled=false",
         },
         
