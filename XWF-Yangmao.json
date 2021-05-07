@@ -114,7 +114,7 @@
 
 
         {
-            "config": "7 0-23 * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.PNG, tag=书旗小说, enabled=false",
+            "config": "0 */30 0-23 * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.PNG, tag=书旗小说, enabled=false",
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-shuqi-header1.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/shuqi.PNG, tag=书旗小说获取header, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ziye-shuqi-header1.txt, tag=书旗小说获取header, update-interval=86400, opt-parser=false, enabled=false",
