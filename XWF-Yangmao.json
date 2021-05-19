@@ -144,7 +144,7 @@
 
 
         {
-            "config": "0 12,20 * * * https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/tls.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/tls.png, tag=兑换特仑苏, enabled=false",
+            "config": "0 12,20 * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/tls.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/tls.png, tag=兑换特仑苏, enabled=false",
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/tlscookie.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/tls.png, tag=兑换特仑苏cookie, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/tlscookie.txt, tag=兑换特仑苏cookie, update-interval=86400, opt-parser=false, enabled=false",
