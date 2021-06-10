@@ -149,5 +149,14 @@
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/tlscookie.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/tls.png, tag=兑换特仑苏cookie, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/tlscookie.txt, tag=兑换特仑苏cookie, update-interval=86400, opt-parser=false, enabled=false",
         }
+            
+            
+            
+        {
+            "config": "0,10,20,30,40,50 10-20 * * * https://raw.githubusercontent.com/XWF888/Task/NO.1/ranlv.js, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/ranlv_144x.png, tag=燃旅视频, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/NO.1/ranlvcookie.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/NO.1/ranlv_144x.png, tag=燃旅视频cookie, enabled=false",
+            "addons": "https://raw.githubusercontent.com/XWF888/Task/NO.1/ranlvcookie.txt, tag=燃旅视频cookie, update-interval=86400, opt-parser=false, enabled=false",
+        }    
     ],
 }
