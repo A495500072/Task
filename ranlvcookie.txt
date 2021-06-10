@@ -1,4 +1,4 @@
 hostname = ranlv.lvfacn.com
 #圈x 
 [rewrite local]
-https://ranlv.lvfacn.com/api.php/Common/pvlog url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/ranlv.js
+https://ranlv.lvfacn.com/api.php/Common/pvlog url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/ranlv.js
