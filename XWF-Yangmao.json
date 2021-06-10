@@ -134,4 +134,6 @@
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/XWF888/Task/Main/ranlvcookie.txt, img-url=https://raw.githubusercontent.com/XWF888/Task/Main/ranlv_144x.png, tag=燃旅视频cookie, enabled=false",
             "addons": "https://raw.githubusercontent.com/XWF888/Task/Main/ranlvcookie.txt, tag=燃旅视频cookie, update-interval=86400, opt-parser=false, enabled=false",
-        }],}
+        }
+           ],
+}
