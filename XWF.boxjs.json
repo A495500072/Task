@@ -670,9 +670,9 @@
       "type": "number",
       "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
     }],
-    "repo": "https://raw.githubusercontent.com/xl2101200/-/main/tqyb.js",
+    "repo": "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.js",
     "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-    "script": "https://raw.githubusercontent.com/xl2101200/-/main/tqyb.js",
+    "script": "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.js",
     "icon": "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg",
     "favIcon": "mdi-star-outline",
     "favIconColor": "grey",
