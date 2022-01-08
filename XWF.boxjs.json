@@ -671,9 +671,9 @@
       "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
     }],
     "repo": "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.js",
-    "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+    "icons": ["https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.png", "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.png"],
     "script": "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.js",
-    "icon": "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg",
+    "icon": "https://raw.githubusercontent.com/XWF888/Task/Main/tqyb.png",
     "favIcon": "mdi-star-outline",
     "favIconColor": "grey",
     "datas": [{
