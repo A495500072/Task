@@ -86,7 +86,6 @@
 
 ![示例](https://raw.githubusercontent.com/Orz-3/mini/none/-7.png)
 
-![示例](https://raw.githubusercontent.com/Orz-3/mini/none/yaofan.png)
 
 ##圈x图标订阅地址：
 https://raw.githubusercontent.com/XWF888/Task/Main/mini/mini-1.json
