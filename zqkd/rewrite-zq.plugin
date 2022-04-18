@@ -14,7 +14,7 @@ http-request ^https?://ios\.baertt\.com/v5/user/app_stay\.json script-path=https
 http-request ^https?://\w+\.youth\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSign)(\?.+)?$ script-path=https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqread.js, tag=中青签到、宝箱数据
 
 # 获取阅读请求:首页抓取一篇文章
-http-request ^https?:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js, tag=阅读请求
+http-request ^https?:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js, requires-header=1, tag=阅读请求
 
 # Loon 定时任务配置
 # cron "8/30 * 1-6 * * *" script-path=https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqread.js, enabled=true, tag=中青阅读
