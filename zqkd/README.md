@@ -11,45 +11,7 @@
 [MITM]
 hostname = kd.youth.cn, kandian.wkandian.com 
  ```
-#### Surge:
-* [模块地址](https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/surge.sgmodule)
 
- ```
-https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/surge.sgmodule
- ```
- * 本地重写
- 
- ```
-[Script]
-中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js,script-update-interval=0
-中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
-中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
-中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
-```
-#### Shadowrocket(Cron配置): 
-
-```
-[Script]
-中青看点 = type=cron,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js,cronexpr="1 */6 * * *",timeout=20,enable=true
-```
-####  Loon:
-
-* [插件地址](https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/loon.plugin)
-
- ```
-https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/loon.plugin
- ```
-* 本地重写
-  
- ```
-[Script]
-cron "04 00 * * *" script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, enabled=true, tag=中青看点
-http-request https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, enabled=true, tag=中青看点
-http-request https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, enabled=true, tag=中青看点
-http-request https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, enabled=true, tag=中青看点
-http-request https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, enabled=true, tag=中青看点
-```
 #### Quantumult X:
    * [远程重写配置](https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_rewite.txt)
    
