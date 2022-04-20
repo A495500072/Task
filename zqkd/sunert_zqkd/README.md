@@ -32,7 +32,7 @@ https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-
    
 ```
 [task_local]
-1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js, enabled=true, tag=中青看点
+1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js, enabled=true, tag=中青看点
 ```
 ###  获取Cookie方法
   * 打开极速版APP，进去我的"任务中心"，提示获取Cookie
