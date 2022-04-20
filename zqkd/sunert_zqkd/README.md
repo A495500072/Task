@@ -4,7 +4,7 @@
 
  # <center> 中青看点使用说明 </center>
 
- [跳转至底部](#注意事项)  ----  [回到主页](https://github.com/Sunert/Script)
+ [跳转至底部](#注意事项)  ----  [回到主页](https://github.com/XWF888/Task/tree/Main/zqkd/sunert_zqkd)
 
 ### IOS配置教程
  ```
@@ -13,7 +13,7 @@ hostname = kd.youth.cn, kandian.wkandian.com
  ```
 
 #### Quantumult X:
-   * [远程重写配置](https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_rewite.txt)
+   * [远程重写配置](https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qx_rewite.txt)
    
 ```
 [rewrite_remote]
@@ -23,16 +23,16 @@ https://raw.githubusercontent.com/Sunert/Script/master/TaskConf/youth/qx_rewite.
    
 ```
 [rewrite_local]
-https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
+https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
 ```
    * 本地任务配置
    
 ```
 [task_local]
-1 */5 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, enabled=true, tag=中青看点
+1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js, enabled=true, tag=中青看点
 ```
 ###  获取Cookie方法
   * 打开极速版APP，进去我的"任务中心"，提示获取Cookie
