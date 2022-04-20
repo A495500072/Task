@@ -42,7 +42,6 @@ https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-
   
  >>> [回到顶部](#IOS配置教程)
 
- >>> [回到上一页](..)
  
 ### 注意事项:
  - __提现金额需该请求一致，只更改提现金额无效，默认30元__
