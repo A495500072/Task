@@ -6,7 +6,7 @@
   "repo": "https://github.com/XWF888/Task/tree/Main/zqkd",
   "apps": [{
       "id": "youthCk",
-      "name": "中青数据",
+      "name": "中青数据（中青cookie/阅读请求/阅读时长）",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4","youth_autoread"],
       "descs_html": [
         "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js\">中青看点极速版youth_sync</a>】",
@@ -19,7 +19,7 @@
         "4、在首页找个视频看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
         "📖备注：看看赚的任务可能失效过期，建议：(1)、在看看赚配置中选则移除失败数据；(2)、看看赚任务一天跑两次；(3)、第一二次任务执行之间，可再回中青app看看赚任务页面查看下是否有新任务"
       ],
-      "author": "@ztxtop",
+      "author": "@XWF888",
       "settings": [{
         "id": "ckFormat",
         "val": "",
@@ -45,13 +45,13 @@
     },
     {
       "id": "youthNeRead",
-      "name": "中青阅读",
+      "name": "中青循环阅读",
       "descs_html": [
         "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqread.js\">中青阅读</a>】",
         "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
         "⚠️：QX阅读数据可通过【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
       ],
-      "author": "@ztxtop",
+      "author": "@XWF888",
       "settings": [{
         "id": "readMode",
         "name": "执行模式（点击查看设置说明）",
@@ -115,12 +115,12 @@
     },
     {
       "id": "youthBanner",
-      "name": "中青看看赚",
+      "name": "中青看看赚/浏览赚",
       "descs_html": [
         "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
       ],
       "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "youth_banner2", "youth_android_readtime2", "youth_android_reward2", "youth_android_newtask2", "youth_banner3", "youth_android_readtime3", "youth_android_reward3", "youth_android_newtask3", "youth_banner4", "youth_android_readtime4", "youth_android_reward4", "youth_android_newtask4"],
-      "author": "@ztxtop",
+      "author": "@XWF888",
       "settings": [{
         "id": "delErrorData",
         "name": "移除当日失败两次+的任务数据",
