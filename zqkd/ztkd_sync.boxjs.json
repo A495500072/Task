@@ -7,7 +7,7 @@
   "apps": [{
       "id": "youth_sync",
       "name": "中青数据cookie",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4","youth_autoread"],
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4"],
       "descs_html": [
         "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js\">中青看点极速版youth_sync</a>】",
         "单账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js\">中青看点极速版youth</a>】",
