@@ -23,10 +23,10 @@ https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qx_rewite.tx
    
 ```
 [rewrite_local]
-https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
-https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth.js
+https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
 ```
    * 本地任务配置
    
