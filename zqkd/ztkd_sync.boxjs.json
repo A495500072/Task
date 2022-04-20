@@ -48,6 +48,8 @@
       "name": "中青循环阅读",
       "descs_html": [
         "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqread.js\">中青循环阅读</a>】",
+        "中青分享阅读订阅配置【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youthShareRead.conf\">分享阅读</a>】",
+        "分享阅读食用方法：中青分享一篇文章到自己的微信上，自己点击一下即触发会自动完成3次后有阅读奖励，500青豆/次",
         "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
         "⚠️：QX阅读数据可通过【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
       ],
