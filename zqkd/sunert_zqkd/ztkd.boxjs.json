@@ -6,7 +6,7 @@
   "repo": "https://github.com/XWF888/Task/tree/Main/zqkd/sunert_zqkd", 
   "apps": [ 
     {
-      "author": "@sunert", 
+      "author": "@XWF888", 
       "descs_html": [
         "获取Cookie以及脚本配置请查看【<a href=\"https://github.com/XWF888/Task/blob/Main/zqkd/sunert_zqkd/README.md\">配置说明</a>】",
         "单账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js\">中青看点极速版youth</a>】",
@@ -84,7 +84,10 @@
       ]
     }, 
     {
-      "author": "@sunert", 
+      "author": "@XWF888",
+      "descs_html": [
+        "中青浏览赚&看看赚地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth_gain.js\">浏览赚&看看赚</a>】"
+      ], 
       "keys": [
         "youth_start", 
         "youth_look"
@@ -99,7 +102,10 @@
       ]
     }, 
     {
-      "author": "@sunert", 
+      "author": "@XWF888",
+      "descs_html": [
+        "中青自动阅读地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js\">自动阅读</a>】"
+      ], 
       "keys": [
         "youth_autoread", 
         "autotime_zq"
