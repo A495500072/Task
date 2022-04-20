@@ -2,13 +2,14 @@
   "id": "zqkd.script.sub", 
   "author": "@XWF888", 
   "icon": "https://avatars.githubusercontent.com/u/77550098?s=60&v=4", 
-  "name": "M⃞r⃞.x⃞i⃞a⃞o⃞℡🇨🇳中青脚本订阅", 
+  "name": "M⃞r⃞.x⃞i⃞a⃞o⃞℡🇨🇳中青单账号", 
   "repo": "https://github.com/XWF888/Task/tree/Main/zqkd", 
   "apps": [ 
     {
       "author": "@sunert", 
       "descs_html": [
-        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/XWF888/Task/blob/Main/zqkd/sunert_zqkd/README.md\">配置说明</a></h4>", 
+        "获取Cookie以及脚本配置请查看【<a href=\"https://github.com/XWF888/Task/blob/Main/zqkd/sunert_zqkd/README.md\">配置说明</a>】",
+        "单账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js\">中青看点极速版youth</a>】",
         "<br />", 
         "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
       ], 
