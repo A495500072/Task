@@ -5,8 +5,8 @@
   "icon": "https://avatars.githubusercontent.com/u/77550098?s=60&v=4",
   "repo": "https://github.com/XWF888/Task/tree/Main/zqkd",
   "apps": [{
-      "id": "youthCk",
-      "name": "中青数据（中青cookie/阅读请求/阅读时长）",
+      "id": "youth_sync",
+      "name": "中青数据cookie",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4","youth_autoread"],
       "descs_html": [
         "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js\">中青看点极速版youth_sync</a>】",
@@ -44,7 +44,7 @@
       "script": "https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/youth_sync.js"
     },
     {
-      "id": "youthNeRead",
+      "id": "zqread",
       "name": "中青循环阅读",
       "descs_html": [
         "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/zqread.js\">中青阅读</a>】",
@@ -114,7 +114,7 @@
       }]
     },
     {
-      "id": "youthBanner",
+      "id": "youth_banner",
       "name": "中青看看赚/浏览赚",
       "descs_html": [
         "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
