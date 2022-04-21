@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.
 [rewrite_remote]
 https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxread_rewite.txt
 ```
-   * 本地重写配置
+   * 中青ck本地重写配置
 ```
 [rewrite_local]
 https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
@@ -37,6 +37,13 @@ https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json url script-request-body
 https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth_gain.js
 
 https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
+```
+   * 中青阅读本地重写配置
+```
+[rewrite_local]
+https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js
+
+https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js
 ```
    * 本地任务配置
 ```
