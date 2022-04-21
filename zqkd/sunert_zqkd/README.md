@@ -13,7 +13,7 @@ hostname = kd.youth.cn, kandian.wkandian.com
  ```
 
 #### Quantumult X:
-   * [远程重写配置](https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qx_rewite.txt)
+   * [远程重写配置](https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.txt)
    
 ```
 [rewrite_remote]
