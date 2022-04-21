@@ -35,13 +35,13 @@ https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json url script-request-body
 https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth_gain.js
 
 https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
-
 ```
    * 本地任务配置
    
 ```
 [task_local]
 1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js, enabled=true, tag=中青看点
+10 */20 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js, enabled=true, tag=中青阅读
 ```
 ###  获取Cookie方法
   * 打开极速版APP，进去我的"任务中心"，提示获取Cookie
