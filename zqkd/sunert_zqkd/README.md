@@ -17,7 +17,7 @@ hostname = kd.youth.cn, kandian.wkandian.com
    
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qx_rewite.txt
+https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.txt
 ```
    * 本地重写配置
    
