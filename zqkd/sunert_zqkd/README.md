@@ -23,13 +23,7 @@ https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.
 [rewrite_remote]
 https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxread_rewite.txt
 ```
-[rewrite_remote]
-https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.txt
-https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxread_rewite.txt
-```
-
    * 本地重写配置
-   
 ```
 [rewrite_local]
 https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
@@ -44,9 +38,7 @@ https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json url script-request-b
 
 https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js
 ```
-
    * 本地任务配置
-   
 ```
 [task_local]
 1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js, enabled=true, tag=中青看点
