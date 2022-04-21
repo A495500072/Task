@@ -14,6 +14,7 @@ hostname = kd.youth.cn, kandian.wkandian.com
 
 #### Quantumult X:
    * [中青ck远程重写配置](https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxck_rewite.txt)
+   
    * [中青阅读远程重写配置](https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/qxread_rewite.txt)
 ```
 [rewrite_remote]
@@ -41,6 +42,7 @@ https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body h
 ```
 [task_local]
 1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js, enabled=true, tag=中青看点
+
 10 */20 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js, enabled=true, tag=中青阅读
 ```
 ###  获取Cookie方法
