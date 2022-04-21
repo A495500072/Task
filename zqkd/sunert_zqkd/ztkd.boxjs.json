@@ -9,7 +9,7 @@
       "author": "@XWF888", 
       "descs_html": [
         "获取Cookie以及脚本配置请查看【<a href=\"https://github.com/XWF888/Task/blob/Main/zqkd/sunert_zqkd/README.md\">配置说明</a>】",
-        "单账号脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js\">中青看点极速版youth</a>】",
+        "中青看点脚本地址【<a href=\"https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js\">中青看点极速版youth</a>】",
         "<br />", 
         "<p>📖备注：(1)、其中zq_nick/昵称、zqcash/提现金额和zqcard/早起打卡开关，无需另外获取，相关项设置后自动生成;  (2)、另外cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选;</p>"
       ], 
