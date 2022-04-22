@@ -51,6 +51,8 @@ https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json url script-request-body https:/
 1 */5 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth.js, enabled=true, tag=中青看点
 
 10 */20 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/Youth_Read.js, enabled=true, tag=中青阅读
+
+30 6,12 * * * https://raw.githubusercontent.com/XWF888/Task/Main/zqkd/sunert_zqkd/youth_gain.js,enabled=true, tag=中青看看赚
 ```
 ###  获取Cookie方法
   * 打开极速版APP，进去我的"任务中心"，提示获取Cookie
