@@ -707,16 +707,14 @@
                 "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png"
             ],
             "script":"https://github.com/"
-        } {
-            "id":"txstock",
-            "name":"腾讯自选股",
+        },{
+            "id":"ksjsb",
+            "name":"快手极速版",
             "keys":[
-                "TxStockAppUrl",
-                "TxStockAppHeader",
-                "TxStockWxHeader"	
+                "ksjsbCookie"	
             ],
             "settings": [{
-                "id": "TxStockuserck",
+                "id": "ksjsbuserck",
                 "name": "当前账号",
                 "val": "1",
                 "type": "number",
@@ -725,8 +723,8 @@
             "author":"@David",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
-                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png",
-                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png"
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png"
             ],
             "script":"https://github.com/"
         }
