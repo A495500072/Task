@@ -707,6 +707,28 @@
                 "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png"
             ],
             "script":"https://github.com/"
+        } {
+            "id":"txstock",
+            "name":"腾讯自选股",
+            "keys":[
+                "TxStockAppUrl",
+                "TxStockAppHeader",
+                "TxStockWxHeader"	
+            ],
+            "settings": [{
+                "id": "TxStockuserck",
+                "name": "当前账号",
+                "val": "1",
+                "type": "number",
+                "desc": "当前账号对应"
+            }],
+            "author":"@David",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png"
+            ],
+            "script":"https://github.com/"
         }
     ]
 }
