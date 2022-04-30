@@ -848,7 +848,7 @@
         "http://script.frp.aiuyo.com:8680/img/ql-mini.png",
         "http://script.frp.aiuyo.com:8680/img/ql.png"
       ],
-      "script": "http://script.frp.aiuyo.com:8680/scripts/sync_ql.js"
+      "script": "https://raw.githubusercontent.com/XWF888/Task/Main/ql/sync_ql.js"
     }
-    ]
+  ]
 }
