@@ -790,7 +790,17 @@
             {
               "key": "douyinzyfhd",
               "label": "抖音极速版总音符1"
+            },
+            {
+              "key": "douyinurl",
+              "label": "抖音极速版限时任务"
+            },
+            {
+              "key": "douyinhd",
+              "label": "抖音极速版限时任务1"
             }
+          ],
+          "
           ],
           "desc": "选择需要同步的APP"
         },
