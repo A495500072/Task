@@ -691,15 +691,31 @@
             "keys":[
                 "TxStockAppUrl",
                 "TxStockAppHeader",
-                "TxStockWxHeader"	
+                "TxStockWxHeader",
+	        "TxStockAppUrl2",
+                "TxStockAppHeader2",
+                "TxStockWxHeader2",
+                "TxStockAppUrl3",
+                "TxStockAppHeader3",
+                "TxStockWxHeader3",
+                "TxStockAppUrl4",
+                "TxStockAppHeader4",
+                "TxStockWxHeader4"
             ],
             "settings": [{
-                "id": "TxStockuserck",
-                "name": "当前账号",
-                "val": "1",
-                "type": "number",
-                "desc": "当前账号对应"
-            }],
+                    "id": "txstockSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                },
+                {
+                    "id": "txstockCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }],
             "author":"@David",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
@@ -730,14 +746,21 @@
         },{
             "id":"dyjsb_xqf888",
             "name":"抖音极速版",
-            "keys":["douyinzyfurl","douyinzyfhd","douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd"],
+            "keys":["douyinzyfurl","douyinzyfhd","douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd","douyinzyfurl2","douyinzyfhd2","douyinurl2", "douyinh2d", "douyinbxurl2", "douyinbxhd2", "douyinkbxurl2", "douyinkbxhd2", "douyinzqurl2", "douyinzqhd2", "douyinzbbxurl2", "douyinzbbxhd2"],
             "settings": [{
-                "id": "dyjsbSuffix",
-                "name": "当前账号",
-                "val": "1",
-                "type": "number",
-                "desc": "当前账号对应"
-            }],
+                    "id": "dyjsbSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                },
+                {
+                    "id": "dyjsbCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }],
             "author":"@xqf888",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
