@@ -728,23 +728,23 @@
             ],
             "script":"https://github.com/"
         },{
-            "id":"ksjsb",
-            "name":"快手极速版",
+            "id":"dyjsb",
+            "name":"抖音极速版",
             "keys":[
-                "ksjsbCookie"	
+                "douyinzyfurl","douyinurl","douyinhd","douyinbxurl","douyinbxhd","douyinkbxurl","douyinkbxhd","douyinzqurl","douyinzqhd","douyinzbbxurl","douyinzbbxhd"	
             ],
             "settings": [{
-                "id": "ksjsbuserck",
+                "id": "dyjsbuserck",
                 "name": "当前账号",
                 "val": "1",
                 "type": "number",
                 "desc": "当前账号对应"
             }],
-            "author":"@leaf",
+            "author":"@xqf888",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
-                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png",
-                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png"
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/TikTok.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/TikTok.png"
             ],
             "script":"https://github.com/"
         }
