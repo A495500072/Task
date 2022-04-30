@@ -728,7 +728,7 @@
             ],
             "script":"https://github.com/"
         },{
-            "id":"dyjsbuserck",
+            "id":"dyjsb",
             "name":"抖音极速版",
             "keys":["douyinzyfurl","douyinzyfhd","douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd"],
             "settings": [{
@@ -741,8 +741,8 @@
             "author":"@xqf888",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
-                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/TikTok.png",
-                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/TikTok.png"
+                "https://raw.githubusercontent.com/XWF888/Task/Main/dyjsb.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/dyjsb.png"
             ],
             "script":"https://github.com/"
         },{
