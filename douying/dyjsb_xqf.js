@@ -5,11 +5,13 @@ let douyinhdArr = [],
     douyinbxhdArr = [], 
     douyinkbxhdArr = [],
     douyinzqhdArr = [],
-    douyinzbbxdArr = [],
+    douyinzbbxhdArr = [],
+    douyinzyfhdArr = [],
     douyincount = ''
 
 //总音符
 let douyinzyfurl = ($.isNode() ? process.env.douyinzyfurl :       $.getdata('douyinzyfurl')) || '';
+let douyinzyfhd = ($.isNode() ? process.env.douyinzyfhd :       $.getdata('douyinzyfhd')) || '';
 
 //限时任务
 let douyinurl = ($.isNode() ? process.env.douyinurl :       $.getdata('douyinurl')) || '';
@@ -51,6 +53,7 @@ let douyinzbbxbody = ($.isNode() ?process.env.douyinzbbxbody:$.getdata('douyinzb
   } else {
     
     douyinzyfurlArr = douyinzyfurl.split('@')
+    douyinzyfhdArr = douyinzyfhd.split('@')
 
     douyinurlArr = douyinurl.split('@')
     douyinhdArr = douyinhd.split('@')
@@ -76,6 +79,7 @@ let douyinzbbxbody = ($.isNode() ?process.env.douyinzbbxbody:$.getdata('douyinzb
     for (let i = 0; i < douyinhdArr.length; i++) {
    
       douyinzyfurl = douyinzyfurlArr[i]
+      douyinzyfhd = douyinzyfhdArr[i]
    
       douyinurl = douyinurlArr[i]
       douyinhd = douyinhdArr[i]
@@ -225,11 +229,15 @@ function douyinck() {
 
 //显示总音符
 
-if ($request.url.indexOf("page") > -1) {
+        if ($request.url.indexOf("page") > -1) {
         const douyinzyfurl = $request.url
         if (douyinzyfurl) $.setdata(douyinzyfurl, `douyinzyfurl${status}`)
         $.log(douyinzyfurl)
-           $.msg($.name, "", `抖音${status}获取douyinzyfurl成功`)//$.msg这段是通知提示信息获取成功
+
+        const douyinzyfhd = JSON.stringify($request.headers)
+        if (douyinzyfhd) $.setdata(douyinzyfhd, `douyinzyfhd${status}`)
+        $.log(douyinzyfhd)
+           $.msg($.name, "", `抖音${status}获取douyinzyfhd成功`)//$.msg这段是通知提示信息获取成功
 
     }
 
@@ -243,7 +251,7 @@ function dyqd(timeout = 0) {
 
         let url = {
             url: douyinzyfurl,
-            headers: JSON.parse(douyinhd),
+            headers: JSON.parse(douyinzyfhd),
             //body: `douyinbody`,
         }
         $.get(url, async (err, resp, data) => {
