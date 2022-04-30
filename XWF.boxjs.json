@@ -949,8 +949,8 @@
       "author": "@David",
       "repo": "https://github.com/bluesmallpig/scripts",
       "icons": [
-        "http://script.frp.aiuyo.com:8680/img/ql-mini.png",
-        "http://script.frp.aiuyo.com:8680/img/ql.png"
+        "https://raw.githubusercontent.com/XWF888/Task/Main/ql-mini.png",
+        "https://raw.githubusercontent.com/XWF888/Task/Main/ql.png"
       ],
       "script": "https://raw.githubusercontent.com/XWF888/Task/Main/ql/sync_ql.js"
     }
