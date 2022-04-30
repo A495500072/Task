@@ -831,7 +831,7 @@
               "key": "douyinzbbxhd",
               "label": "直播红包hd"
             },
-{
+            {
               "key": "dyjsbapp",
               "label": "抖音极速版"
             },
@@ -926,6 +926,14 @@
             {
               "key": "jkttapp",
               "label": "健康头条"
+            },
+            {
+              "key": "slydapp",
+              "label": "书路阅读"
+            },
+            {
+              "key": "ggbapp",
+              "label": "广告吧"
             }
           ],
           "desc": "选择需要同步的APP"
