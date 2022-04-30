@@ -728,11 +728,11 @@
             ],
             "script":"https://github.com/"
         },{
-            "id":"dyjsb",
+            "id":"dyjsbuserck",
             "name":"抖音极速版",
             "keys":["douyinzyfurl", "douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd"],
             "settings": [{
-                "id": "dyjsbuserck",
+                "id": "dyjsbSuffix",
                 "name": "当前账号",
                 "val": "1",
                 "type": "number",
