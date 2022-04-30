@@ -727,6 +727,26 @@
                 "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png"
             ],
             "script":"https://github.com/"
+        },{
+            "id":"ksjsb",
+            "name":"快手极速版",
+            "keys":[
+                "ksjsbCookie"	
+            ],
+            "settings": [{
+                "id": "ksjsbuserck",
+                "name": "当前账号",
+                "val": "1",
+                "type": "number",
+                "desc": "当前账号对应"
+            }],
+            "author":"@leaf",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png"
+            ],
+            "script":"https://github.com/"
         }
     ]
 }
