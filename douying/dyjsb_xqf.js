@@ -1,4 +1,3 @@
-*/
 const $ = new Env('抖音极速版');
 let status;
 status = (status = ($.getval("douyinstatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
