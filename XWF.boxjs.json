@@ -730,7 +730,7 @@
         },{
             "id":"dyjsbuserck",
             "name":"抖音极速版",
-            "keys":["douyinzyfurl", "douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd"],
+            "keys":["douyinzyfurl","douyinzyfhd","douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd"],
             "settings": [{
                 "id": "dyjsbSuffix",
                 "name": "当前账号",
@@ -786,6 +786,10 @@
             {
               "key": "douyinzyfurl",
               "label": "抖音极速版总音符"
+            },
+            {
+              "key": "douyinzyfhd",
+              "label": "抖音极速版总音符1"
             }
           ],
           "desc": "选择需要同步的APP"
