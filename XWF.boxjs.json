@@ -744,13 +744,13 @@
             ],
             "script":"https://github.com/"
         }, {
-            "id":"ksjsb",
-            "name":"快手极速版",
+            "id":"ks",
+            "name":"快手",
             "keys":[
-                "ksjsbCookie"
+                "ksCookie"
             ],
             "settings": [{
-                    "id": "ksjsbSuffix",
+                    "id": "ksSuffix",
                     "name": "当前账号",
                     "val": "1",
                     "type": "number",
@@ -763,7 +763,7 @@
                 "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/kuaishou.png"
             ],
             "script":"https://github.com/"
-        }{
+        }, {
             "id":"dyjsb_xqf888",
             "name":"抖音极速版",
             "keys":["douyinzyfurl","douyinzyfhd","douyinurl", "douyinhd", "douyinbxurl", "douyinbxhd", "douyinkbxurl", "douyinkbxhd", "douyinzqurl", "douyinzqhd", "douyinzbbxurl", "douyinzbbxhd",
