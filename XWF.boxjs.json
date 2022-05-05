@@ -730,12 +730,18 @@
                 "ksjsbCookie"
             ],
             "settings": [{
-                    "id": "ksjsbSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前对应账号"
-                }],
+        "id": "ksjsbSuffix",
+        "name": "抓包账号",
+        "val": "1",
+        "type": "number",
+        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      }, {
+        "id": "ksjsbExecAc",
+        "name": "快手极速版执行账号",
+        "val": "1",
+        "type": "text",
+        "desc": "设置快手极速版的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      }],
             "author":"@leaf",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
