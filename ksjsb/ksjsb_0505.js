@@ -4,7 +4,7 @@ IOS/安卓： 快手极速版
 最后一次修车了
 自己可以修改下面两个链接，因为服务器流量有限，每天早上更新哦，出现0金币属于正常情况。
 */
-let res1 = 'https://ghproxy.com/https://raw.githubusercontent.com/XWF888/Task/Main/ksjsb/ksjsbjk.json';
+let res1 = 'https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ksjsb.json';
 
 let res2 = 'https://ghproxy.com/https://raw.githubusercontent.com/XWF888/Task/Main/ksjsb/backUp/ks.json';
 
