@@ -730,12 +730,14 @@
                 "ksjsbCookie"
             ],
             "settings": [{
-                    "id": "ksjsbSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前对应账号"
-                }],
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
+  }],
             "author":"@leaf",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
@@ -750,12 +752,14 @@
                 "ksCookie"
             ],
             "settings": [{
-                    "id": "ksSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前对应账号"
-                }],
+          "id": "ksCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksCookie"
+  }],
             "author":"@leaf",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
