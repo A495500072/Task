@@ -211,7 +211,8 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPkbxhd成功`)
 
-    }    
+    }
+
 
 //宝箱看广告     
     if ($request.url.indexOf("chest_ad") > -1) {
