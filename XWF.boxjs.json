@@ -113,7 +113,7 @@
             ],
             "script":"https://github.com/"
         },{
-      "id": "syncql",
+      "id": "sync_ql",
       "name": "同步青龙",
       "keys": [
         "ql_host",
