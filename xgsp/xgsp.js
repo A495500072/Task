@@ -199,7 +199,7 @@ function XGSPck() {
 
 
 
-//开宝箱
+/*//开宝箱
     if ($request.url.indexOf("coin_chest") > -1) {
         const XGSPkbxurl = $request.url
         if (XGSPkbxurl) $.setdata(XGSPkbxurl, `XGSPkbxurl${status}`)
@@ -213,7 +213,7 @@ function XGSPck() {
 
     }    
 
-/*//宝箱看广告     
+//宝箱看广告     
     if ($request.url.indexOf("chest_ad") > -1) {
         const XGSPbxggurl = $request.url
         if (XGSPbxggurl) $.setdata(XGSPbxggurl, `XGSPbxggurl${status}`)
