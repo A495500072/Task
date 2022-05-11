@@ -301,7 +301,56 @@
             {
               "key": "ggbapp",
               "label": "广告吧"
+            },
+
+              "key": "douyinzyfurl",
+              "label": "总音符"
+            },
+            {
+              "key": "douyinzyfhd",
+              "label": "总音符hd"
+            },
+            {
+              "key": "douyinurl",
+              "label": "限时任务"
+            },
+            {
+              "key": "douyinhd",
+              "label": "限时任务hd"
+            },
+            {
+              "key": "douyinbxurl",
+              "label": "宝箱"
+            },
+            {
+              "key": "douyinbxhd",
+              "label": "宝箱hd"
+            },
+            {
+              "key": "douyinkbxurl",
+              "label": "宝箱广告"
+            },
+            {
+              "key": "douyinkbxhd",
+              "label": "宝箱广告hd"
+            },
+            {
+              "key": "douyinzqurl",
+              "label": "视频任务"
+            },
+            {
+              "key": "douyinzqhd",
+              "label": "视频任务hd"
+            },
+            {
+              "key": "douyinzbbxurl",
+              "label": "直播红包"
+            },
+            {
+              "key": "douyinzbbxhd",
+              "label": "直播红包hd"
             }
+
           ],
           "desc": "选择需要同步的APP"
         },
