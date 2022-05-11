@@ -316,7 +316,7 @@
                     "type": "number",
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }],
-            "author":"@David",
+            "author":"@xqf888",
             "repo":"https://github.com/bluesmallpig/scripts",
             "icons":[
                 "https://raw.githubusercontent.com/XWF888/Task/Main/xgsp.png",
