@@ -388,7 +388,7 @@ function xgkbx(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log()//打印返回失败数值
+            console.log(`❌🙅开宝箱失败：${data.err_tips}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -481,7 +481,7 @@ function xgbx2(timeout = 0) {
     console.log(`📣🎉获取金币成功：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌🙅看视频失败：${data.err_tips}`)//打印返回失败数值
+    console.log(`❌🙅获取金币失败：${data.err_tips}`)//打印返回失败数值
 
                 }
             } catch (e) {
