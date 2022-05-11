@@ -320,7 +320,7 @@ function xgqd(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log(`❌🙅西瓜视频已签到：${data.date}😿😿😿`)//打印返回失败数值
+            console.log(`❌🙅西瓜视频已签到：${data.date}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -355,7 +355,7 @@ function xgyd(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log(`❌🙅阅读失败：${data.err_tips}😿😿😿`)//打印返回失败数值
+            console.log(`❌🙅阅读失败：${data.err_tips}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -415,10 +415,10 @@ function xgbxgg(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`📣🎉广告金币成功：${data.data.amount}金币`)//打印返回成功數值
+    console.log(`📣🎉宝箱广告成功：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌🙅广告失败：${data.err_tips}😿😿`)//打印返回失败数值
+    console.log(`❌🙅宝箱广告失败：${data.err_tips}😿😿`)//打印返回失败数值
 
                 }
             } catch (e) {
@@ -447,11 +447,11 @@ function xgbx1(timeout = 0) {
 
                 if (data.err_no == 0) {
             
-            console.log(`📣🎉宝箱刷新金币：${data.data.amount}金币`)//打印返回成功數值
+            console.log(`📣🎉宝箱广告1成功：${data.data.amount}金币`)//打印返回成功數值
                 //else是不然的意思
                 } else {
 
-            //打印返回失敗數值
+            console.log(`❌🙅宝箱广告1失败：${data.err_tips}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -478,10 +478,10 @@ function xgbx2(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`📣🎉获取金币成功：${data.data.amount}金币`)//打印返回成功數值
+    console.log(`📣🎉宝箱广告2成功：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌🙅获取金币失败：${data.err_tips}`)//打印返回失败数值
+    console.log(`❌🙅宝箱广告2失败：${data.err_tips} 😿😿 `)//打印返回失败数值
 
                 }
             } catch (e) {
