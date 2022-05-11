@@ -302,55 +302,62 @@
               "key": "ggbapp",
               "label": "广告吧"
             },
-
-              "key": "douyinzyfurl",
-              "label": "总音符"
+            {
+              "key": "XGSPurl",
+              "label": "签到"
             },
             {
-              "key": "douyinzyfhd",
-              "label": "总音符hd"
+              "key": "XGSPhd",
+              "label": "签到hd"
             },
             {
-              "key": "douyinurl",
-              "label": "限时任务"
+              "key": "XGSPydurl",
+              "label": "阅读"
             },
             {
-              "key": "douyinhd",
-              "label": "限时任务hd"
+              "key": "XGSPydhd",
+              "label": "阅读hd"
             },
             {
-              "key": "douyinbxurl",
-              "label": "宝箱"
+              "key": "XGSPkbxurl",
+              "label": "开宝箱"
             },
             {
-              "key": "douyinbxhd",
-              "label": "宝箱hd"
+              "key": "XGSPkbxhd",
+              "label": "开宝箱hd"
             },
             {
-              "key": "douyinkbxurl",
+              "key": "XGSPbxggurl",
               "label": "宝箱广告"
             },
             {
-              "key": "douyinkbxhd",
+              "key": "XGSPbxgghd",
               "label": "宝箱广告hd"
             },
             {
-              "key": "douyinzqurl",
-              "label": "视频任务"
+              "key": "XGSPbx1url",
+              "label": "宝箱追加广告1"
             },
             {
-              "key": "douyinzqhd",
-              "label": "视频任务hd"
+              "key": "XGSPbx1hd",
+              "label": "宝箱追加广告1hd"
             },
             {
-              "key": "douyinzbbxurl",
-              "label": "直播红包"
+              "key": "XGSPbx2url",
+              "label": "宝箱追加广告2"
             },
             {
-              "key": "douyinzbbxhd",
-              "label": "直播红包hd"
+              "key": "XGSPbx2hd",
+              "label": "宝箱追加广告2hd"
+            },
+            {
+              "key": "XGSPbx2url",
+              "label": "宝箱追加广告2"
+            },
+            {
+              "key": "XGSPbx2hd",
+              "label": "宝箱追加广告2hd"
             }
-
           ],
           "desc": "选择需要同步的APP"
         },
