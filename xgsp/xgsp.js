@@ -211,7 +211,7 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPkbxhd成功`)
 
-    }
+    }*/
 
 
 //宝箱看广告     
@@ -226,7 +226,7 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPbxgghd成功`)//$.msg这段是通知提示信息获取成功
 
-    }*/
+    }
   
     
 //宝箱1
