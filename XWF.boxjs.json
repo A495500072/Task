@@ -320,32 +320,37 @@
         "https://raw.githubusercontent.com/XWF888/Task/Main/ql.png"
       ],
       "script": "https://raw.githubusercontent.com/XWF888/Task/Main/ql/sync_ql.js"
-    }, {
-            "id":"txstock",
-            "name":"腾讯自选股",
+    },{
+            "id":"xgsp",
+            "name":"西瓜视频",
             "keys":[
-                "TxStockAppUrl",
-                "TxStockAppHeader",
-                "TxStockWxHeader",
-	        "TxStockAppUrl2",
-                "TxStockAppHeader2",
-                "TxStockWxHeader2",
-                "TxStockAppUrl3",
-                "TxStockAppHeader3",
-                "TxStockWxHeader3",
-                "TxStockAppUrl4",
-                "TxStockAppHeader4",
-                "TxStockWxHeader4"
+                "XGSPurl",
+                "XGSPhd",
+                "XGSPydurl",
+	        "XGSPydhd",
+                "XGSPkbxurl",
+                "XGSPkbxhd",
+                "XGSPbxggurl",
+                "XGSPbxgghd",
+                "XGSPbx1url",
+                "XGSPbx1hd",
+                "XGSPbx2url",
+                "XGSPbx2hd",
+                "XGSPggjfurl",
+                "XGSPggjfhd",
+                "XGSPjineurl",
+                "XGSPjinehd"
+
             ],
             "settings": [{
-                    "id": "txstockSuffix",
+                    "id": "xgspSuffix",
                     "name": "当前账号",
                     "val": "1",
                     "type": "number",
                     "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
                 },
                 {
-                    "id": "txstockCount",
+                    "id": "xgspCount",
                     "name": "账号个数",
                     "val": "1",
                     "type": "number",
