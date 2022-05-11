@@ -152,219 +152,115 @@
           "items": [
             {
               "key": "douyinzyfurl",
-              "label": "总音符"
+              "label": "🎵抖音总音符"
             },
             {
               "key": "douyinzyfhd",
-              "label": "总音符hd"
+              "label": "🎵抖音总音符hd"
             },
             {
               "key": "douyinurl",
-              "label": "限时任务"
+              "label": "🎵抖音限时任务"
             },
             {
               "key": "douyinhd",
-              "label": "限时任务hd"
+              "label": "🎵抖音限时任务hd"
             },
             {
               "key": "douyinbxurl",
-              "label": "宝箱"
+              "label": "🎵抖音宝箱"
             },
             {
               "key": "douyinbxhd",
-              "label": "宝箱hd"
+              "label": "🎵抖音宝箱hd"
             },
             {
               "key": "douyinkbxurl",
-              "label": "宝箱广告"
+              "label": "🎵抖音宝箱广告"
             },
             {
               "key": "douyinkbxhd",
-              "label": "宝箱广告hd"
+              "label": "🎵抖音宝箱广告hd"
             },
             {
               "key": "douyinzqurl",
-              "label": "视频任务"
+              "label": "🎵抖音视频任务"
             },
             {
               "key": "douyinzqhd",
-              "label": "视频任务hd"
+              "label": "🎵抖音视频任务hd"
             },
             {
               "key": "douyinzbbxurl",
-              "label": "直播红包"
+              "label": "🎵抖音直播红包"
             },
             {
               "key": "douyinzbbxhd",
-              "label": "直播红包hd"
-            },
-            {
-              "key": "dyjsbapp",
-              "label": "抖音极速版"
-            },
-            {
-              "key": "zqkdapp",
-              "label": "中青看点"
-            },
-            {
-              "key": "sjbapp",
-              "label": "睡觉宝"
-            },
-            {
-              "key": "fdxsapp",
-              "label": "疯读小说"
-            },
-            {
-              "key": "djxsapp",
-              "label": "得间小说"
-            },
-            {
-              "key": "qqydapp",
-              "label": "QQ阅读"
-            },
-            {
-              "key": "dzlapp",
-              "label": "多走路"
-            },
-            {
-              "key": "jrttapp",
-              "label": "今日头条极速版"
-            },
-            {
-              "key": "kkdapp",
-              "label": "快看点"
-            },
-            {
-              "key": "sqxsapp",
-              "label": "书旗小说"
-            },
-            {
-              "key": "wlkdapp",
-              "label": "文旅看点"
-            },
-            {
-              "key": "txsapp",
-              "label": "淘小说"
-            },
-            {
-              "key": "zssqapp",
-              "label": "追书神器"
-            },
-            {
-              "key": "fqxsapp",
-              "label": "番茄小说"
-            },
-            {
-              "key": "fqctapp",
-              "label": "番茄畅听"
-            },
-            {
-              "key": "jzttapp",
-              "label": "九章头条"
-            },
-            {
-              "key": "qttapp",
-              "label": "趣头条"
-            },
-            {
-              "key": "dyhsbapp",
-              "label": "抖音火山版"
-            },
-            {
-              "key": "ksapp",
-              "label": "快手短视频"
-            },
-            {
-              "key": "ksjsbapp",
-              "label": "快手极速版"
-            },
-            {
-              "key": "jyapp",
-              "label": "剪映"
-            },
-            {
-              "key": "qdapp",
-              "label": "签到合集"
-            },
-            {
-              "key": "xgspapp",
-              "label": "西瓜视频"
-            },
-            {
-              "key": "jkttapp",
-              "label": "健康头条"
-            },
-            {
-              "key": "slydapp",
-              "label": "书路阅读"
-            },
-            {
-              "key": "ggbapp",
-              "label": "广告吧"
+              "label": "🎵抖音直播红包hd"
             },
             {
               "key": "XGSPurl",
-              "label": "签到"
+              "label": "🍉西瓜签到"
             },
             {
               "key": "XGSPhd",
-              "label": "签到hd"
+              "label": "🍉西瓜签到hd"
             },
             {
               "key": "XGSPydurl",
-              "label": "阅读"
+              "label": "🍉西瓜阅读"
             },
             {
               "key": "XGSPydhd",
-              "label": "阅读hd"
+              "label": "🍉西瓜阅读hd"
             },
             {
               "key": "XGSPkbxurl",
-              "label": "开宝箱"
+              "label": "🍉西瓜开宝箱"
             },
             {
               "key": "XGSPkbxhd",
-              "label": "开宝箱hd"
+              "label": "🍉西瓜开宝箱hd"
             },
             {
               "key": "XGSPbxggurl",
-              "label": "宝箱广告"
+              "label": "🍉西瓜宝箱广告"
             },
             {
               "key": "XGSPbxgghd",
-              "label": "宝箱广告hd"
+              "label": "🍉西瓜宝箱广告hd"
             },
             {
               "key": "XGSPbx1url",
-              "label": "宝箱追加广告1"
+              "label": "🍉西瓜宝箱追加广告1"
             },
             {
               "key": "XGSPbx1hd",
-              "label": "宝箱追加广告1hd"
+              "label": "🍉西瓜宝箱追加广告1hd"
             },
             {
               "key": "XGSPbx2url",
-              "label": "宝箱追加广告2"
+              "label": "🍉西瓜宝箱追加广告2"
             },
             {
               "key": "XGSPbx2hd",
-              "label": "宝箱追加广告2hd"
+              "label": "🍉西瓜宝箱追加广告2hd"
             },
             {
               "key": "XGSPggjfurl",
-              "label": "广告赚积分"
+              "label": "🍉西瓜广告赚积分"
             },
             {
               "key": "XGSPggjfhd",
-              "label": "广告赚积分hd"
+              "label": "🍉西瓜广告赚积分hd"
             },
             {
               "key": "XGSPjineurl",
-              "label": "用户积分"
+              "label": "🍉西瓜用户积分"
             },
             {
               "key": "XGSPjinehd",
-              "label": "用户积分hd"
+              "label": "🍉西瓜用户积分hd"
             }
           ],
           "desc": "选择需要同步的APP"
