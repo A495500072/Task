@@ -320,6 +320,44 @@
         "https://raw.githubusercontent.com/XWF888/Task/Main/ql.png"
       ],
       "script": "https://raw.githubusercontent.com/XWF888/Task/Main/ql/sync_ql.js"
-    }
+    }, {
+            "id":"txstock",
+            "name":"腾讯自选股",
+            "keys":[
+                "TxStockAppUrl",
+                "TxStockAppHeader",
+                "TxStockWxHeader",
+	        "TxStockAppUrl2",
+                "TxStockAppHeader2",
+                "TxStockWxHeader2",
+                "TxStockAppUrl3",
+                "TxStockAppHeader3",
+                "TxStockWxHeader3",
+                "TxStockAppUrl4",
+                "TxStockAppHeader4",
+                "TxStockWxHeader4"
+            ],
+            "settings": [{
+                    "id": "txstockSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                },
+                {
+                    "id": "txstockCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }],
+            "author":"@David",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png",
+                "https://raw.githubusercontent.com/XWF888/Task/Main/txzxg.png"
+            ],
+            "script":"https://github.com/"
+        }
   ]
 }
