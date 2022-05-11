@@ -131,8 +131,8 @@ console.log(`\n\n===============================================                
  
             await xgyhm()
             await $.wait(1000)
-            //await xgqd()//你要执行的版块
-            //await $.wait(1000)//你要延迟时间1000=1秒
+            await xgqd()//你要执行的版块
+            await $.wait(1000)//你要延迟时间1000=1秒
 //循环运行多次任务
   for (let c = 0; c < 5; c++) {
            $.index = c + 1
