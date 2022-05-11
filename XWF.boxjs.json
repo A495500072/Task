@@ -351,12 +351,20 @@
               "label": "宝箱追加广告2hd"
             },
             {
-              "key": "XGSPbx2url",
-              "label": "宝箱追加广告2"
+              "key": "XGSPggjfurl",
+              "label": "广告赚积分"
             },
             {
-              "key": "XGSPbx2hd",
-              "label": "宝箱追加广告2hd"
+              "key": "XGSPggjfhd",
+              "label": "广告赚积分hd"
+            },
+            {
+              "key": "XGSPjineurl",
+              "label": "用户积分"
+            },
+            {
+              "key": "XGSPjinehd",
+              "label": "用户积分hd"
             }
           ],
           "desc": "选择需要同步的APP"
