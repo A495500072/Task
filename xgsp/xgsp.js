@@ -139,7 +139,7 @@ console.log(`\n\n===============================================                
             await xgqd()//你要执行的版块
             await $.wait(1000)//你要延迟时间1000=1秒
 //循环运行多次任务
-  for (let c = 0; c < 10; c++) {
+  for (let c = 0; c < 5; c++) {
            $.index = c + 1
             await xgyd()  
             await $.wait(28000)
@@ -152,6 +152,9 @@ console.log(`\n\n===============================================                
             await $.wait(5000)
             await xgbx2()
             await $.wait(15000)
+            await xgggjf()
+            await $.wait(15000)
+            
             await xglive()
             await $.wait(5000)
             //await dyzbkbx()
@@ -188,7 +191,7 @@ function XGSPck() {
 
 
 
-//西瓜首页阅读
+//西瓜阅读
     if ($request.url.indexOf("timer/tick") > -1) {
         const XGSPydurl = $request.url
         if (XGSPydurl) $.setdata(XGSPydurl, `XGSPydurl${status}`)
@@ -218,7 +221,7 @@ function XGSPck() {
 
     }    
 
-/*//宝箱广告     
+/*//宝箱看广告     
     if ($request.url.indexOf("chest_ad") > -1) {
         const XGSPbxggurl = $request.url
         if (XGSPbxggurl) $.setdata(XGSPbxggurl, `XGSPbxggurl${status}`)
@@ -233,7 +236,7 @@ function XGSPck() {
     }*/
   
     
-//宝箱再得广告1
+//宝箱1
    if ($request.url.indexOf("task/query/ad_watch_daily_again") > -1) {
         const XGSPbx1url = $request.url
         if (XGSPbx1url) $.setdata(XGSPbx1url, `XGSPbx1url${status}`)
@@ -248,7 +251,7 @@ function XGSPck() {
     }
 
  
-//宝箱再得广告2
+//宝箱2
     if ($request.url.indexOf("task/done/ad_watch_daily_again") > -1) {
         const XGSPbx2url = $request.url
         if (XGSPbx2url) $.setdata(XGSPbx2url, `XGSPbx2url${status}`)
@@ -267,7 +270,7 @@ function XGSPck() {
     }
 
 
-//看广告赚积分     
+//广告积分     
     if ($request.url.indexOf("task/done/ad_watch_daily") > -1) {
         const XGSPggjfurl = $request.url
         if (XGSPggjfurl) $.setdata(XGSPggjfurl, `XGSPggjfurl${status}`)
@@ -281,7 +284,7 @@ function XGSPck() {
 
     }
 
-//西瓜金币收益     
+//西瓜金额     
     if ($request.url.indexOf("task/page") > -1) {
         const XGSPjineurl = $request.url
         if (XGSPjineurl) $.setdata(XGSPjineurl, `XGSPjineurl${status}`)
