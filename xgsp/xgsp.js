@@ -131,7 +131,7 @@ let XGSPzbbxbody = ($.isNode() ?process.env.XGSPzbbxbody:$.getdata('XGSPzbbxbody
       $.index = i + 1;
       
 console.log(`\n               开始【西瓜视频${$.index}】\n`)
-console.log(`\n\n===============================================           ⏰脚本执行-北京时间(UTC)：${new Date().toLocaleString()}        ===============================================\n   \n`)
+console.log(`\n\n===============================================            ⏰脚本执行-北京时间(UTC)：${new Date().toLocaleString()}       ===============================================\n   \n`)
       
  
             await xgyhm()
