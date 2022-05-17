@@ -131,7 +131,7 @@ let XGSPzbbxbody = ($.isNode() ?process.env.XGSPzbbxbody:$.getdata('XGSPzbbxbody
       $.index = i + 1;
       
 console.log(`\n               开始【西瓜视频${$.index}】\n`)
-console.log(`\n\n===============================================                                                     ⏰脚本执行-北京时间(UTC)：${new Date().toLocaleString()}        ===============================================\n   \n`)
+console.log(`\n\n===============================================           ⏰脚本执行-北京时间(UTC)：${new Date().toLocaleString()}        ===============================================\n   \n`)
       
  
             await xgyhm()
@@ -139,7 +139,7 @@ console.log(`\n\n===============================================                
             await xgqd()//你要执行的版块
             await $.wait(1000)//你要延迟时间1000=1秒
 //循环运行多次任务
-  for (let c = 0; c < 5; c++) {
+  for (let c = 0; c < 10; c++) {
            $.index = c + 1
             await xgyd()  
             await $.wait(28000)
@@ -175,7 +175,7 @@ console.log(`\n\n===============================================                
 
 //数据获取
 function XGSPck() {
-//签到
+//西瓜签到
         if ($request.url.indexOf("daily_sign_in") > -1) {
         const XGSPurl = $request.url
         if (XGSPurl) $.setdata(XGSPurl, `XGSPurl${status}`)
@@ -236,7 +236,7 @@ function XGSPck() {
     }*/
   
     
-//宝箱1
+//宝箱再得广告1
    if ($request.url.indexOf("task/query/ad_watch_daily_again") > -1) {
         const XGSPbx1url = $request.url
         if (XGSPbx1url) $.setdata(XGSPbx1url, `XGSPbx1url${status}`)
@@ -251,7 +251,7 @@ function XGSPck() {
     }
 
  
-//宝箱2
+//宝箱再得广告2
     if ($request.url.indexOf("task/done/ad_watch_daily_again") > -1) {
         const XGSPbx2url = $request.url
         if (XGSPbx2url) $.setdata(XGSPbx2url, `XGSPbx2url${status}`)
@@ -270,7 +270,7 @@ function XGSPck() {
     }
 
 
-//广告积分     
+//看广告赚积分     
     if ($request.url.indexOf("task/done/ad_watch_daily") > -1) {
         const XGSPggjfurl = $request.url
         if (XGSPggjfurl) $.setdata(XGSPggjfurl, `XGSPggjfurl${status}`)
@@ -284,7 +284,7 @@ function XGSPck() {
 
     }
 
-//西瓜金额     
+//西瓜金币收益     
     if ($request.url.indexOf("task/page") > -1) {
         const XGSPjineurl = $request.url
         if (XGSPjineurl) $.setdata(XGSPjineurl, `XGSPjineurl${status}`)
@@ -312,12 +312,7 @@ function XGSPck() {
 
     }
 
-
-
-
 }//这符号小心不能删掉
-
-
 
 //👇以下是任务👇
 //西瓜签到
@@ -341,7 +336,7 @@ function xgqd(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log(`❌西瓜视频已签到：${data.date}😿😿😿`)//打印返回失败数值
+            console.log(`❌西瓜视频已签到：${data.date}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -352,8 +347,6 @@ function xgqd(timeout = 0) {
         }, timeout)
     })
 }
-
-
 
 //西瓜阅读
 function xgyd(timeout = 0) {
@@ -409,7 +402,7 @@ function xgkbx(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log()//打印返回失败数值
+            console.log(`❌开宝箱失败：${data.err_tips}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -421,7 +414,7 @@ function xgkbx(timeout = 0) {
     })
 }
 
-//宝箱广告
+//宝箱看广告
 function xgbxgg(timeout = 0) {
     return new Promise((resolve) => {
 
@@ -436,10 +429,10 @@ function xgbxgg(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`🎉广告金币成功：${data.data.amount}金币`)//打印返回成功數值
+    console.log(`🎉宝箱广告金币成功：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌广告失败：${data.err_tips}😿😿`)//打印返回失败数值
+    console.log(`❌宝箱广告金币失败：${data.err_tips}😿😿`)//打印返回失败数值
 
                 }
             } catch (e) {
@@ -452,7 +445,7 @@ function xgbxgg(timeout = 0) {
     })
 }
 
-//宝箱1
+//宝箱再得广告1
 function xgbx1(timeout = 0) {
     return new Promise((resolve) => {
 
@@ -468,10 +461,12 @@ function xgbx1(timeout = 0) {
 
                 if (data.err_no == 0) {
             
-            console.log(`🎉宝箱刷新金币：${data.data.amount}金币`)//打印返回成功數值
+            console.log(`🎉再得广告1金币：${data.data.amount}金币`)//打印返回成功數值
+                    
                 //else是不然的意思
                 } else {
-
+                    
+     console.log(`❌再得广告1金币失败：${data.err_tips}😿😿`)//打印返回失败数值
             //打印返回失敗數值
                 }
             } catch (e) {
@@ -484,7 +479,7 @@ function xgbx1(timeout = 0) {
     })
 }
 
-//西瓜宝箱2
+//宝箱再得广告2
 function xgbx2(timeout = 0) {
     return new Promise((resolve) => {
 
@@ -499,10 +494,10 @@ function xgbx2(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`🎉获取金币成功：${data.data.amount}金币`)//打印返回成功數值
+    console.log(`🎉再得广告2金币：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌获取金币失败：${data.err_tips}`)//打印返回失败数值
+    console.log(`❌再得广告2金币失败：${data.err_tips}😿😿`)//打印返回失败数值
 
                 }
             } catch (e) {
@@ -515,7 +510,7 @@ function xgbx2(timeout = 0) {
     })
 }
 
-//广告积分
+//看广告赚积分
 function xgggjf(timeout = 0) {
     return new Promise((resolve) => {
 
@@ -530,8 +525,8 @@ function xgggjf(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`🎉广告赚积分：${data.err_tips}`)//打印返回成功數值
-           console.log(`🎉广告赚积分收取：${data.data.amount}金币`)
+    console.log(`🎉看广告赚积分：${data.err_tips}`)//打印返回成功數值
+           console.log(`🎉看广告赚积分收取：${data.data.amount}金币`)
                } else {
 
                 }
@@ -581,7 +576,7 @@ function xgyhm(timeout = 0) {
 }
 
 
-//西瓜金额
+//西瓜金币收益
 function xgjine(timeout = 0) {
     return new Promise((resolve) => {
 
