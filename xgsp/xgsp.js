@@ -557,7 +557,7 @@ function xgyhm(timeout = 0) {
 
                 if (data.err_no == 0) {
     
-       console.log(`==============用户名：${data.data.user_info.name}==============`)
+       console.log(`================用户名：${data.data.user_info.name}================`)
 
        console.log(`🎉我的金额💰：${data.data.income_info.cash_balance}分`)  
 
