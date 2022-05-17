@@ -261,7 +261,15 @@
             {
               "key": "XGSPjinehd",
               "label": "🍉西瓜用户积分hd"
-            }
+            },
+            {
+              "key": "XGSPliveurl",
+              "label": "🍉西瓜直播"
+            },
+            {
+              "key": "XGSPlivehd",
+              "label": "🍉西瓜直播hd"
+            }  
           ],
           "desc": "选择需要同步的APP"
         },
@@ -299,7 +307,9 @@
                 "XGSPggjfurl",
                 "XGSPggjfhd",
                 "XGSPjineurl",
-                "XGSPjinehd"
+                "XGSPjinehd",
+		"XGSPliveurl",
+		"XGSPlivehd" 
 
             ],
             "settings": [{
