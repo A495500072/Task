@@ -175,7 +175,7 @@ console.log(`\n\n===============================================                
 
 //数据获取
 function XGSPck() {
-//签到
+/*//签到
         if ($request.url.indexOf("daily_sign_in") > -1) {
         const XGSPurl = $request.url
         if (XGSPurl) $.setdata(XGSPurl, `XGSPurl${status}`)
@@ -187,11 +187,11 @@ function XGSPck() {
         
            $.msg($.name, "", `西瓜${status}获取XGSPhd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
 
 
-//西瓜阅读
+/*//西瓜阅读
     if ($request.url.indexOf("timer/tick") > -1) {
         const XGSPydurl = $request.url
         if (XGSPydurl) $.setdata(XGSPydurl, `XGSPydurl${status}`)
@@ -203,11 +203,11 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPydhd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
 
 
-//开宝箱
+/*//开宝箱
     if ($request.url.indexOf("coin_chest") > -1) {
         const XGSPkbxurl = $request.url
         if (XGSPkbxurl) $.setdata(XGSPkbxurl, `XGSPkbxurl${status}`)
@@ -219,7 +219,7 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPkbxhd成功`)
 
-    }    
+    }*/    
 
 /*//宝箱看广告     
     if ($request.url.indexOf("chest_ad") > -1) {
@@ -236,7 +236,7 @@ function XGSPck() {
     }*/
   
     
-//宝箱再得广告1
+/*//宝箱再得广告1
    if ($request.url.indexOf("task/query/ad_watch_daily_again") > -1) {
         const XGSPbx1url = $request.url
         if (XGSPbx1url) $.setdata(XGSPbx1url, `XGSPbx1url${status}`)
@@ -248,10 +248,10 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPbx1hd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
  
-//宝箱再得广告2
+/*//宝箱再得广告2
     if ($request.url.indexOf("task/done/ad_watch_daily_again") > -1) {
         const XGSPbx2url = $request.url
         if (XGSPbx2url) $.setdata(XGSPbx2url, `XGSPbx2url${status}`)
@@ -267,10 +267,10 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPbx2hd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
 
-//看广告赚积分     
+/*//看广告赚积分     
     if ($request.url.indexOf("task/done/ad_watch_daily") > -1) {
         const XGSPggjfurl = $request.url
         if (XGSPggjfurl) $.setdata(XGSPggjfurl, `XGSPggjfurl${status}`)
@@ -282,9 +282,9 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPggjfhd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
-//西瓜金币收益     
+/*//西瓜金币收益     
     if ($request.url.indexOf("task/page") > -1) {
         const XGSPjineurl = $request.url
         if (XGSPjineurl) $.setdata(XGSPjineurl, `XGSPjineurl${status}`)
@@ -296,7 +296,7 @@ function XGSPck() {
 
         $.msg($.name, "", `西瓜${status}获取XGSPjinehd成功`)//$.msg这段是通知提示信息获取成功
 
-    }
+    }*/
 
 //西瓜直播
     if ($request.url.indexOf("live") > -1) {
