@@ -298,7 +298,7 @@ function XGSPck() {
 
     }
 
-//西瓜直播
+//看直播赚积分
     if ($request.url.indexOf("live") > -1) {
         const XGSPliveurl = $request.url
         if (XGSPliveurl) $.setdata(XGSPliveurl, `XGSPliveurl${status}`)
@@ -369,7 +369,7 @@ function xgyd(timeout = 0) {
                 //else是不然的意思
                 } else {
 
-            console.log(`❌阅读失败：${data.err_tips}😿😿😿`)//打印返回失败数值
+            console.log(`❌阅读失败：${data.err_tips}😿😿`)//打印返回失败数值
                 }
             } catch (e) {
 
@@ -606,7 +606,7 @@ function xgjine(timeout = 0) {
     })
 }
 
-//西瓜直播
+//看直播赚积分
 function xglive(timeout = 0) {
     return new Promise((resolve) => {
 
@@ -621,10 +621,10 @@ function xglive(timeout = 0) {
                 data = JSON.parse(data)
 
                 if (data.err_no == 0) {
-    console.log(`🎉直播金币成功：${data.data.amount}金币`)//打印返回成功數值
+    console.log(`🎉看直播赚积分：${data.data.amount}金币`)//打印返回成功數值
            
                } else {
-    console.log(`❌直播金币失败：${data.err_tips}😿😿`)//打印返回失败数值
+    console.log(`❌看直播赚积分失败：${data.err_tips}😿😿`)//打印返回失败数值
 
                 }
             } catch (e) {
