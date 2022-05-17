@@ -322,7 +322,7 @@ function xgqd(timeout = 0) {
         let url = {
             url: XGSPurl,
             headers: JSON.parse(XGSPhd),
-            body: `{\n  \"polaris_version\" : \"9.9.9\",\n  \"luckycat_version_name\" : \"9.9.9\",\n  \"luckycat_version_code\" : \"999999\",\n  \"act_common\" : {\n    \"sdk_version\" : \"5.0.1.14-bugfix\",\n    \"act_data\" : \"ux5jOZsB74gxQndwj0NJp5RSbCXIvNO9Q_8oqLR5rS4Sud0QPTwN1iNeb6yGtYbPavkhQrs6Kr1U1NVymxtpmg\",\n    \"settings_version\" : 15,\n    \"act_token\" : \"3-QcjyjlSbaNbyostGCnkEYbs68uQ2PDdSZG-fDZAqK4MoSIDEyOULrHq4rcUWF8\",\n    \"act_base\" : \"xlpBx8_Qg0p1NxZhq5Jf-MQUbGSPFRiuI9ycKL51qAAUpC5_ISU8kNgUw7b6jEMPEWa_LCsj-5FY45ce22LJpRMrzQHsQmTH4WaG6qBWUqjLhVFMBa1PtOLRgYJYETrLcK08tw9Lc-ifihXb-5KcNuLto1N9XT28FBwBde-FfR8\"\n  }\n}`,
+            body: `{\n  \"polaris_version\" : \"9.9.9\",\n  \"luckycat_version_name\" : \"9.9.9\",\n  \"luckycat_version_code\" : \"999999\",\n  \"act_common\" : {\n    \"sdk_version\" : \"5.0.1.14-bugfix\",\n    \"act_data\" : \"BiIKqF7lwVFazjufk7vcXqoewz7FPx6MYT0ZxH-RhGyqHglYdOoPoeZVtbjHMAw89QfxKniVJY2XbLsb-dv4ciF4BwIAKyAnPJvV3NQxc-I\",\n    \"settings_version\" : 15,\n    \"act_token\" : \"FJ4bewJhZx6qz1BjWDJSlcNUPvoewzjYpbAYvY2eKFLwArHoUMYXpirkus2b17I41M9g1hx4nJiu6x2szou0nLhsoVznZwE-7lJ4PtUM0m5TFK6yx3gxYCLUDqAbfIhmrEhJwlnKLyKojFBKyHdbB26HnJ4uRig7H73shjlvpQU\",\n    \"act_base\" : \"ufgyDWVt3YbLe3QKzoUKCYH8bJzpgreLpFfOD7aQ5Y6ugpYqufuvGHqkToTMY5ayHAuWg166gLRJBTZT9vCL7YT9lkG6B4hIrIinGctz8teiFSyLFhKQKinCJUxxWvzSBYDh8T5Mb3oeqBNAPYoWLnbh3_F9uQfvxA4n8p9lcSA\"\n  }\n}`,
         }
         $.post(url, async (err, resp, data) => {
             try {
