@@ -118,7 +118,7 @@ console.log(`\n\n===============================================                
             //await $.wait(1000)
             //await dyzbkbx()
 //循环运行多次任务
-  for (let c = 0; c < 5000; c++) {
+  for (let c = 0; c < 50; c++) {
            $.index = c + 1            
             await dyzq()
             await $.wait(20000)
