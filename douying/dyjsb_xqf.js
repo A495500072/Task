@@ -120,8 +120,8 @@ console.log(`\n\n===============================================                
 //循环运行多次任务
   for (let c = 0; c < 10; c++) {
            $.index = c + 1            
-            await dyzq()
-            await $.wait(20000)
+            //await dyzq()
+            //await $.wait(20000)
       }
             await dyqd()
     }
