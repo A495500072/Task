@@ -141,8 +141,8 @@ console.log(`\n\n===============================================            ⏰�
 //循环运行多次任务
   for (let c = 0; c < 10; c++) {
            $.index = c + 1
-            await xgyd()  
-            await $.wait(28000)
+            //await xgyd()  
+            //await $.wait(28000)
       }
             await xgkbx()
             await $.wait(10000)
