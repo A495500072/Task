@@ -1,6 +1,6 @@
 /*
 
-软件名: ios/番茄小说
+软件名: ios/番茄小说3.5.0
 
 作者: 执意Ariszy 修复@Origami Juvenile
 
