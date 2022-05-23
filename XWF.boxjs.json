@@ -269,7 +269,7 @@
             {
               "key": "XGSPlivehd",
               "label": "🍉西瓜直播hd"
-            }  
+            }
           ],
           "desc": "选择需要同步的APP"
         },
@@ -333,6 +333,42 @@
                 "https://raw.githubusercontent.com/XWF888/Task/Main/xgsp.png"
             ],
             "script":"https://github.com/"
-        }
+        },{
+    "id": "fqxs",
+    "name": "番茄小说",
+    "keys": ["fqxsurl","fqxsua","fqxstoken","fqxscookie","fqxsxsscookie","fqxsbxurl","fqxsurl2","fqxsua2","fqxstoken2","fqxscookie2","fqxsxsscookie2","fqxsbxurl2"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "fqxsstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },    
+      {
+        "id": "fqxscount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      },
+       {
+        "id": "host",
+        "name": "host",
+        "val": "ib.snssdk.com",
+        "type": "string",
+        "desc": "当前版本host"
+      } ],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
+  }
   ]
 }
