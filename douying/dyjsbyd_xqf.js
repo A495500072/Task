@@ -10,40 +10,37 @@ let douyinhdArr = [],
     douyincount = ''
 
 //总音符
-let douyinzyfurl = ($.isNode() ? process.env.douyinzyfurl :       $.getdata('douyinzyfurl')) || '';
-let douyinzyfhd = ($.isNode() ? process.env.douyinzyfhd :       $.getdata('douyinzyfhd')) || '';
+let douyinzyfurl = ($.isNode() ? process.env.DOUYINZYFURL :  $.getdata('douyinzyfurl')) || '';
+let douyinzyfhd = ($.isNode() ? process.env.DOUYINZYFHD :  $.getdata('douyinzyfhd')) || '';
 
 //限时任务
-let douyinurl = ($.isNode() ? process.env.douyinurl :       $.getdata('douyinurl')) || '';
-let douyinhd = ($.isNode() ? 
-process.env.douyinhd :        $.getdata('douyinhd')) || '';
-let douyinbody = ($.isNode() ? process.env.douyinbody :    $.getdata('douyinbody')) || '';
+let douyinurl = ($.isNode() ? process.env.DOUYINURL :  $.getdata('douyinurl')) || '';
+let douyinhd = ($.isNode() ? process.env.DOUYINHD :  $.getdata('douyinhd')) || '';
+let douyinbody = ($.isNode() ? process.env.DOUYINBODY :  $.getdata('douyinbody')) || '';
 
 
 //抖音开宝箱
-let douyinkbxurl = ($.isNode() ? process.env.douyinkbxurl : $.getdata('douyinkbxurl')) || '';
-let douyinkbxhd = ($.isNode() ? process.env.douyinkbxhd :  $.getdata('douyinkbxhd')) || '';
-let douyinkbxbody = ($.isNode() ? process.env.douyinkbxbody : $.getdata('douyinkbxbody')) || '';
+let douyinkbxurl = ($.isNode() ? process.env.DOUYINKBXURL :  $.getdata('douyinkbxurl')) || '';
+let douyinkbxhd = ($.isNode() ? process.env.DOUYINKBXHD :  $.getdata('douyinkbxhd')) || '';
+let douyinkbxbody = ($.isNode() ? process.env.DOUYINKBXBODY :  $.getdata('douyinkbxbody')) || '';
 
 
 //抖音宝箱广告
-let douyinbxurl = ($.isNode() ? process.env.douyinbxurl :  $.getdata('douyinbxurl')) || '';
-let douyinbxhd = ($.isNode() ? process.env.douyinbxhd :    $.getdata('douyinbxhd')) || '';
-let douyinbxbody = ($.isNode() ? process.env.douyinbxbody :$.getdata('douyinbxbody')) || '';
+let douyinbxurl = ($.isNode() ? process.env.DOUYINBXURL :  $.getdata('douyinbxurl')) || '';
+let douyinbxhd = ($.isNode() ? process.env.DOUYINBXHD :  $.getdata('douyinbxhd')) || '';
+let douyinbxbody = ($.isNode() ? process.env.DOUYINBXBODY :  $.getdata('douyinbxbody')) || '';
 
 
 //抖音转圈圈视频
-let douyinzqurl = ($.isNode() ? process.env.douyinzqurl :  $.getdata('douyinzqurl')) || '';
-let douyinzqhd = ($.isNode() ? 
-process.env.douyinzqhd :    $.getdata('douyinzqhd')) || '';
-let douyinzqbody = ($.isNode() ?process.env.douyinzqbody : $.getdata('douyinzqbody')) || '';
+let douyinzqurl = ($.isNode() ? process.env.DOUYINZQURL :  $.getdata('douyinzqurl')) || '';
+let douyinzqhd = ($.isNode() ? process.env.DOUYINZQHD :  $.getdata('douyinzqhd')) || '';
+let douyinzqbody = ($.isNode() ? process.env.DOUYINZQBODY :  $.getdata('douyinzqbody')) || '';
 
 
 //抖音直播宝箱
-let douyinzbbxurl = ($.isNode() ? process.env.douyinzbbxurl : $.getdata('douyinzbbxurl')) || '';
-let douyinzbbxhd = ($.isNode() ? 
-process.env.douyinzbbxhd : $.getdata('douyinzbbxhd')) || '';
-let douyinzbbxbody = ($.isNode() ?process.env.douyinzbbxbody:$.getdata('douyinzbbxbody')) || '';
+let douyinzbbxurl = ($.isNode() ? process.env.DOUYINZBBXURL :  $.getdata('douyinzbbxurl')) || '';
+let douyinzbbxhd = ($.isNode() ? process.env.DOUYINZBBXHD :  $.getdata('douyinzbbxhd')) || '';
+let douyinzbbxbody = ($.isNode() ? process.env.DOUYINZBBXBODY :  $.getdata('douyinzbbxbody')) || '';
   
 //开始运行
 !(async () => {
