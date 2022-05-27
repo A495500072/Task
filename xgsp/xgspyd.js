@@ -14,52 +14,45 @@ let XGSPhdArr = [],
     XGSPcount = ''
 
 //签到
-let XGSPurl = ($.isNode() ? process.env.XGSPurl :       $.getdata('XGSPurl')) || '';
-let XGSPhd = ($.isNode() ? process.env.XGSPhd :       $.getdata('XGSPhd')) || '';
+let XGSPurl = ($.isNode() ? process.env.XGSPURL :  $.getdata('XGSPurl')) || '';
+let XGSPhd = ($.isNode() ? process.env.XGSPHD :  $.getdata('XGSPhd')) || '';
 
 //阅读
-let XGSPydurl = ($.isNode() ? process.env.XGSPydurl :       $.getdata('XGSPydurl')) || '';
-let XGSPydhd = ($.isNode() ? 
-process.env.XGSPydhd :        $.getdata('XGSPydhd')) || '';
+let XGSPydurl = ($.isNode() ? process.env.XGSPYDURL :  $.getdata('XGSPydurl')) || '';
+let XGSPydhd = ($.isNode() ? process.env.XGSPYDHD :  $.getdata('XGSPydhd')) || '';
 
 //开宝箱
-let XGSPkbxurl = ($.isNode() ? process.env.XGSPkbxurl : $.getdata('XGSPkbxurl')) || '';
-let XGSPkbxhd = ($.isNode() ? process.env.XGSPkbxhd :  $.getdata('XGSPkbxhd')) || '';
+let XGSPkbxurl = ($.isNode() ? process.env.XGSPKBXURL :  $.getdata('XGSPkbxurl')) || '';
+let XGSPkbxhd = ($.isNode() ? process.env.XGSPKBXHD :  $.getdata('XGSPkbxhd')) || '';
 
 //宝箱广告
-let XGSPbxggurl = ($.isNode() ? process.env.XGSPbxggurl : $.getdata('XGSPbxggurl')) || '';
-let XGSPbxgghd = ($.isNode() ? process.env.XGSPbxgghd :  $.getdata('XGSPbxgghd')) || '';
+let XGSPbxggurl = ($.isNode() ? process.env.XGSPBXGGURL :  $.getdata('XGSPbxggurl')) || '';
+let XGSPbxgghd = ($.isNode() ? process.env.XGSPBXGGHD :  $.getdata('XGSPbxgghd')) || '';
 
 //宝箱1
-let XGSPbx1url = ($.isNode() ? process.env.XGSPbx1url :  $.getdata('XGSPbx1url')) || '';
-let XGSPbx1hd = ($.isNode() ? process.env.XGSPbx1hd :    $.getdata('XGSPbx1hd')) || '';
+let XGSPbx1url = ($.isNode() ? process.env.XGSPBX1URL :  $.getdata('XGSPbx1url')) || '';
+let XGSPbx1hd = ($.isNode() ? process.env.XGSPBX1HD :  $.getdata('XGSPbx1hd')) || '';
 
 //宝箱2
-let XGSPbx2url = ($.isNode() ? process.env.XGSPbx2url : $.getdata('XGSPbx2url')) || '';
-let XGSPbx2hd = ($.isNode() ? process.env.XGSPbx2hd :  $.getdata('XGSPbx2hd')) || '';
+let XGSPbx2url = ($.isNode() ? process.env.XGSPBX2URL :  $.getdata('XGSPbx2url')) || '';
+let XGSPbx2hd = ($.isNode() ? process.env.XGSPBX2HD :  $.getdata('XGSPbx2hd')) || '';
 
 //广告积分
-let XGSPggjfurl = ($.isNode() ? process.env.XGSPggjfurl : $.getdata('XGSPggjfurl')) || '';
-let XGSPggjfhd = ($.isNode() ? process.env.XGSPggjfhd :  $.getdata('XGSPggjfhd')) || '';
+let XGSPggjfurl = ($.isNode() ? process.env.XGSPGGJFURL :  $.getdata('XGSPggjfurl')) || '';
+let XGSPggjfhd = ($.isNode() ? process.env.XGSPGGJFHD :  $.getdata('XGSPggjfhd')) || '';
 
 //西瓜金额
-let XGSPjineurl = ($.isNode() ? process.env.XGSPjineurl : $.getdata('XGSPjineurl')) || '';
-let XGSPjinehd = ($.isNode() ? process.env.XGSPjinehd :  $.getdata('XGSPjinehd')) || '';
-
-
+let XGSPjineurl = ($.isNode() ? process.env.XGSPJINEURL :  $.getdata('XGSPjineurl')) || '';
+let XGSPjinehd = ($.isNode() ? process.env.XGSPJINEHD :  $.getdata('XGSPjinehd')) || '';
 
 //西瓜直播
-let XGSPliveurl = ($.isNode() ? process.env.XGSPliveurl :  $.getdata('XGSPliveurl')) || '';
-let XGSPlivehd = ($.isNode() ? 
-process.env.XGSPlivehd :    $.getdata('XGSPlivehd')) || '';
-
+let XGSPliveurl = ($.isNode() ? process.env.XGSPLIVEURL :  $.getdata('XGSPliveurl')) || '';
+let XGSPlivehd = ($.isNode() ? process.env.XGSPLIVEHD :  $.getdata('XGSPlivehd')) || '';
 
 /*//西瓜直播宝箱
-let XGSPzbbxurl = ($.isNode() ? process.env.XGSPzbbxurl : $.getdata('XGSPzbbxurl')) || '';
-let XGSPzbbxhd = ($.isNode() ? 
-process.env.XGSPzbbxhd : $.getdata('XGSPzbbxhd')) || '';
-let XGSPzbbxbody = ($.isNode() ?process.env.XGSPzbbxbody:$.getdata('XGSPzbbxbody')) || '';
- 
+let XGSPzbbxurl = ($.isNode() ? process.env.XGSPZBBXURL : $.getdata('XGSPzbbxurl')) || '';
+let XGSPzbbxhd = ($.isNode() ? process.env.XGSPZBBXHD : $.getdata('XGSPzbbxhd')) || '';
+let XGSPzbbxbody = ($.isNode() ?process.env.XGSPZBBXBODY :$.getdata('XGSPzbbxbody')) || '';
 */
 
 
