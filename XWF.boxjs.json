@@ -272,27 +272,27 @@
             },
 	    {
               "key": "fqxsurl",
-              "label": "番茄小说URL"
+              "label": "🍅番茄小说URL"
             },
             {
               "key": "fqxsua",
-              "label": "番茄小说UA"
+              "label": "🍅番茄小说UA"
             },
             {
               "key": "fqxstoken",
-              "label": "番茄小说TK"
+              "label": "🍅番茄小说TK"
             },
             {
               "key": "fqxscookie",
-              "label": "番茄小说CK"
+              "label": "🍅番茄小说CK"
             },
             {
               "key": "fqxsxsscookie",
-              "label": "番茄小说宝箱CK"
+              "label": "🍅番茄小说宝箱CK"
             },
             {
               "key": "fqxsbxurl",
-              "label": "番茄小说宝箱URL"
+              "label": "🍅番茄小说宝箱URL"
             }	  	  
           ],
           "desc": "选择需要同步的APP"
