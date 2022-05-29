@@ -107,8 +107,8 @@ console.log(`\n\n===============================================                
            
             await dyqd()//你要执行的版块
             await $.wait(1000)//你要延迟时间1000=1秒
-            await dyxssp()  
-            await $.wait(1000)
+            //await dyxssp()  
+            //await $.wait(1000)
             await dykbx()
             await $.wait(1000)
             await dybxgg()
