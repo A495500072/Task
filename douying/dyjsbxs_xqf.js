@@ -105,22 +105,22 @@ console.log(`\n\n===============================================                
       
  
            
-            await dyqd()//你要执行的版块
-            await $.wait(1000)//你要延迟时间1000=1秒
-            //await dyxssp()  
+            //await dyqd()//你要执行的版块
+            //await $.wait(1000)//你要延迟时间1000=1秒
+            await dyxssp()  
+            await $.wait(1000)
+            //await dykbx()
             //await $.wait(1000)
-            await dykbx()
-            await $.wait(1000)
-            await dybxgg()
-            await $.wait(1000)
-            await dyzbkbx()
+            //await dybxgg()
+            //await $.wait(1000)
+            //await dyzbkbx()
 //循环运行多次任务
   for (let c = 0; c < 10; c++) {
            $.index = c + 1            
             //await dyzq()
             //await $.wait(20000)
       }
-            await dyqd()
+            //await dyqd()
     }
   }
 
