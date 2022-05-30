@@ -80,15 +80,15 @@ status = (status = ($.getval("xfqxsstatus") || "1") ) > 1 ? `${status}` : ""; //
 const fqxsurlArr = [],fqxsbxsphdArr=[],fqxsbodyArr = [],fqxsbxurlArr=[],fqxscookieArr=[],fqxstokenArr=[],fqxsuaArr=[],fqxsxsscookieArr=[]
 
 //let fqxsbxsphd= $.getdata('fqxsbxsphd')
-let fqxsurl = ($.isNode() ? process.env.FQXSURL : $.getdata('fqxsurl')) || '';
-let fqxsbxurl = ($.isNode() ? process.env.FQXSBXURL : $.getdata('fqxsbxurl')) || '';
+let fqxsurl = $.getdata('fqxsurl')
+let fqxsbxurl = $.getdata('fqxsbxurl')
 let xfqxs= $.getdata('xfqxs')
 let host = $.getdata('host')
 //let fqxsbody= $.getdata('fqxsbody')
-let fqxscookie = ($.isNode() ? process.env.FQXSCOOKIE : $.getdata('fqxscookie')) || '';
-let fqxstoken = ($.isNode() ? process.env.FQXSTOKEN : $.getdata('fqxstoken')) || '';
-let fqxsua = ($.isNode() ? process.env.FQXSUA : $.getdata('fqxsua')) || '';
-let fqxsxsscookie = ($.isNode() ? process.env.FQXSXSSCOOKIE : $.getdata('fqxsxsscookie')) || '';
+let fqxscookie = $.getdata('fqxscookie')
+let fqxstoken = $.getdata('fqxstoken')
+let fqxsua = $.getdata('fqxsua')
+let fqxsxsscookie = $.getdata('fqxsxsscookie')
 let tz = ($.getval('tz') || '1');//0关闭通知，1默认开启
 const logs =0;//0为关闭日志，1为开启
 var hour=''
