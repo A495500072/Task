@@ -146,7 +146,7 @@ console.log(`\n\n===============================================            ⏰�
 
             await xgbxgg()//西瓜宝箱广告
             await $.wait(15000)
-  for (let c = 0; c < 5; c++) {
+  for (let c = 0; c < 3; c++) {
            $.index = c + 1
             await xgbx1()//西瓜宝箱1
             await $.wait(1000)
