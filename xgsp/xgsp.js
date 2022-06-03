@@ -127,37 +127,40 @@ console.log(`\n               开始【西瓜视频${$.index}】\n`)
 console.log(`\n\n===============================================            ⏰脚本执行-北京时间(UTC)：${new Date().toLocaleString()}       ===============================================\n   \n`)
       
  
-            await xgyhm()
+
+            await xgyhm()//西瓜用户名
             await $.wait(1000)
-            await xgqd()//你要执行的版块
+
+            await xgqd()//西瓜签到
             await $.wait(1000)//你要延迟时间1000=1秒
+
 //循环运行多次任务
   for (let c = 0; c < 10; c++) {
            $.index = c + 1
-            //await xgyd()  
+
+            //await xgyd()//西瓜阅读
             //await $.wait(28000)
       }
-            await xgkbx()
-            await $.wait(10000)
-            await xgbxgg()
-            await $.wait(20000)
-            await xgbx1()
-            await $.wait(5000)
-            await xgbx2()
+            await xgkbx()//西瓜开宝箱
+            await $.wait(3000)
+
+            await xgbxgg()//西瓜宝箱广告
             await $.wait(15000)
-            await xgggjf()
-            await $.wait(15000)
-            
-            await xglive()
-            await $.wait(5000)
-            //await dyzbkbx()
-//循环运行多次任务
   for (let c = 0; c < 5; c++) {
-           $.index = c + 1            
-            //await an dyzq()
-            //await $.wait(30000)
-      }
-            await xgjine()
+           $.index = c + 1
+            await xgbx1()//西瓜宝箱1
+            await $.wait(1000)
+
+            await xgbx2()//西瓜宝箱2
+            await $.wait(5000)
+      
+            await xgggjf()//西瓜广告积分
+            await $.wait(8000)
+      }      
+            await xglive()//西瓜直播
+            await $.wait(5000)
+
+            await xgjine()//西瓜显示金额
     }
   }
 
