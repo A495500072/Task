@@ -275,8 +275,8 @@ function operator(pro) {
         }
       }
       keyover = keyover
-        。concat(firstName, usflag, nNames, findKeyValue, retainKey, ikey, ikeys)
-        。filter((k) => k !== "");
+        .concat(firstName, usflag, nNames, findKeyValue, retainKey, ikey, ikeys)
+        .filter((k) => k !== "");
       e.name = keyover.join(FGF);
     } else {
       if (nm) {
